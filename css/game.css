@@ -33,6 +33,7 @@ p {
 
 #logo{
   padding: 30px;
+  margin-bottom: 30px;
   display: flex;
   justify-content: center;
 }
