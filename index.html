@@ -68,7 +68,7 @@
   
     canvas.addEventListener('mousedown', handleMouseClick);
   
-    canvas.addEventListener('mousemove',
+    canvas.addEventListener('mousemove', 'touchmove',
       function(evt) {
         var mousePos = calculateMousePos(evt);
         paddle1Y = mousePos.y - (PADDLE_HEIGHT/2);
